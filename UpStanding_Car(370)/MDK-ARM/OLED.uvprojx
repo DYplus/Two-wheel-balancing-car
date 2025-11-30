@@ -720,6 +720,66 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Middlewares</GroupName>
+          <Files>
+            <File>
+              <FileName>croutine.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\croutine.c</FilePath>
+            </File>
+            <File>
+              <FileName>event_groups.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c</FilePath>
+            </File>
+            <File>
+              <FileName>History.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\History.txt</FilePath>
+            </File>
+            <File>
+              <FileName>LICENSE</FileName>
+              <FileType>9</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\LICENSE</FilePath>
+            </File>
+            <File>
+              <FileName>list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>readme.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\readme.txt</FilePath>
+            </File>
+            <File>
+              <FileName>st_readme.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\st_readme.txt</FilePath>
+            </File>
+            <File>
+              <FileName>stream_buffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>tasks.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</FilePath>
+            </File>
+            <File>
+              <FileName>timers.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>

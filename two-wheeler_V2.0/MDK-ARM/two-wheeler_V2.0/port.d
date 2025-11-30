@@ -1,0 +1,12 @@
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+two-wheeler_v2.0\port.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+two-wheeler_v2.0\port.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+two-wheeler_v2.0\port.o: ../Core/Inc/FreeRTOSConfig.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+two-wheeler_v2.0\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
