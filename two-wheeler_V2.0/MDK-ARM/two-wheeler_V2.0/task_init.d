@@ -54,4 +54,5 @@ two-wheeler_v2.0\task_init.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\
 two-wheeler_v2.0\task_init.o: ..\MyApps\encoder_task.h
 two-wheeler_v2.0\task_init.o: ..\MyApps\control_task.h
 two-wheeler_v2.0\task_init.o: ..\MyApps\bluetooth_task.h
+two-wheeler_v2.0\task_init.o: ..\MyApps\at24c64_task.h
 two-wheeler_v2.0\task_init.o: ..\MyApps\sr04_task.h

@@ -9,6 +9,7 @@
 #include "encoder_task.h"
 #include "control_task.h"
 #include "bluetooth_task.h" 
+#include "at24c64_task.h" 
 #include "sr04_task.h"
 // ------------------------------------------
 
@@ -26,9 +27,20 @@ TaskHandle_t EncoderHandle;
 TaskHandle_t ControlHandle;
 TaskHandle_t BluetoothHandle;
 TaskHandle_t SR04Handle;
+TaskHandle_t AT24C64Handle;  // EEPROM 任务句柄
+
+// I2C总线互斥量的句柄。用于保护 I2C1 资源。
+SemaphoreHandle_t g_i2c1_mutex = NULL;
+
+// EEPROM 循环计数器的全局变量
 
 void Task_Init(void)
 {
+	
+	// I2C1 互斥量创建
+    g_i2c1_mutex = xSemaphoreCreateMutex();
+    configASSERT(g_i2c1_mutex);
+	
     /* ============== 创建队列（原生 API） ============== */
 
     /* IMU 队列 */
@@ -61,4 +73,5 @@ void Task_Init(void)
     xTaskCreate(Control_Task, "CTRL", 512, NULL, 3, &ControlHandle);
     xTaskCreate(Bluetooth_Task, "BT", 128, NULL, 3, &BluetoothHandle);
 		xTaskCreate(SR04_Task, "SR04", 256, NULL, 3, &SR04Handle);
+		xTaskCreate(AT24C64_Task, "EEPROM", 128, NULL, 3, &AT24C64Handle);//  EEPROM 任务
 }

@@ -740,6 +740,16 @@
               <FileType>5</FileType>
               <FilePath>..\MyApps\callbacks.h</FilePath>
             </File>
+            <File>
+              <FileName>AT24C64_Task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyApps\AT24C64_Task.c</FilePath>
+            </File>
+            <File>
+              <FileName>AT24C64_Task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyApps\AT24C64_Task.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -784,6 +794,16 @@
               <FileName>sr04.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\MyDrivers\sr04.c</FilePath>
+            </File>
+            <File>
+              <FileName>AT24C64.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MyDrivers\AT24C64.c</FilePath>
+            </File>
+            <File>
+              <FileName>AT24C64.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\MyDrivers\AT24C64.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -107,5 +107,11 @@ typedef struct
 
 } Sr04Data_t; 
 
+typedef struct
+{
+    uint8_t eeprom_value;
+} EepromData_t;
+
+
 #endif /* __STRUCT_H */
 

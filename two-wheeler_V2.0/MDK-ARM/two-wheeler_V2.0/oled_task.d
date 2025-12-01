@@ -53,3 +53,4 @@ two-wheeler_v2.0\oled_task.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\
 two-wheeler_v2.0\oled_task.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 two-wheeler_v2.0\oled_task.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 two-wheeler_v2.0\oled_task.o: D:\Software\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+two-wheeler_v2.0\oled_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h

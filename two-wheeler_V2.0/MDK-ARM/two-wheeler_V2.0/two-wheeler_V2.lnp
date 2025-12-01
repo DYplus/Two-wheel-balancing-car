@@ -45,6 +45,7 @@
 "two-wheeler_v2.0\bluetooth_task.o"
 "two-wheeler_v2.0\sr04_task.o"
 "two-wheeler_v2.0\callbacks.o"
+"two-wheeler_v2.0\at24c64_task.o"
 "two-wheeler_v2.0\encoder.o"
 "two-wheeler_v2.0\iic.o"
 "two-wheeler_v2.0\inv_mpu.o"
@@ -53,6 +54,7 @@
 "two-wheeler_v2.0\mpu6050.o"
 "two-wheeler_v2.0\oled.o"
 "two-wheeler_v2.0\sr04.o"
+"two-wheeler_v2.0\at24c64.o"
 --strict --scatter "two-wheeler_V2.0\two-wheeler_V2.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
